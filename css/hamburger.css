@@ -1,0 +1,133 @@
+.hamburgerActive:before {
+
+    background-color: #d4ae95;
+    border: 1px solid #f3c6a9;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-transform: rotate(45deg);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    height: 27px;
+    width:3px;
+}
+.hamburgerActive:after
+{
+    background-color: #d4ae95;
+    border: 1px solid #f3c6a9;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-transform: rotate(-45deg);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    height: 27px;
+    width: 3px;
+}
+.hamburgerActive div {
+    display:none;
+    float : none;
+}
+
+.hamburgerNoActive div {
+    display:block;
+    float : none;
+}
+
+#hamburgerBtn {
+    float:left;
+    border: 1px solid #00007a;
+    padding: 3px 4px 3px 4px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: #00007a;
+}
+
+#hamburgerBtn div {
+    background-color: #d4ae95;
+    border: 1px solid #f3c6a9;
+    height: 2px;
+    width: 92%;
+    margin-top: 3px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+#menuHamburger.menuHamburger {
+    margin-left:-25%;
+    left: 0px;
+    top: 65px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: #00007a;
+}
+
+#menuHamburger.menuHamburger ul {
+    list-style: none;
+    margin: 1px 0 0 0;
+    padding: 0;
+    overflow-x: auto;
+    height: auto;
+}
+
+#menuHamburger.menuHamburger  li {
+    width : 90%;
+    font-weight: bold;
+    float:none;
+    padding: 13px;
+    border-bottom: 1px solid gold;
+    boder-left : 0;
+    border-right: 0;
+    border-top: 1px solid gold;
+}
+
+#menuHamburger.menuHamburger li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-right: 0;
+    width: 100%;
+}
+
+#menuHamburger.menuHamburger li a:hover {
+    color: gold;
+    border-bottom : 2px solid transparent;
+}
+
+.noScroll
+{
+    overflow: hidden !important;
+}
+
+.topSide
+{
+    margin-right:0 !important;
+    margin-left:0 !important;
+    width: 100% !important;
+}
+nav.topSide ul
+{
+    height: 0px;
+}
+
+#menuHamburger.topSide li a {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+}
+#menuHamburger.topSide li a:focus{
+    outline: none;
+}
+@media only screen and (min-width: 960px) {
+    #hamburgerBtn {
+        visibility: hidden;
+    }
+}

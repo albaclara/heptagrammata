@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+/* styles for tags*/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Baskerville', sans-serif;
+    font-size: 80%;
+	text-align: left ;
+}
+
+div {
+  background: transparent;
+}
+
+a {
+text-decoration : none;
+color:#000000;
+}
+
+h1 {
+font-size: 2em;
+font-weight: bold;
+color: #00007a;
+ }
+
+h2 {
+margin-top: 10px;
+padding-left:25px;
+font-size:1.5em;
+color: #00007a;
+}
+
+h3 {
+margin-top: 10px;
+padding-left:25px;
+font-size:1em;
+color: #00007a;
+font-weight : bold;
+}
+
+ul {
+text-align:left;
+margin : 0 ;
+}
+hr {
+height: 2px;
+background-color:#00007a;
+border: 0;
+      }
+
+img {
+max-width : 100%;
+max-height : 100%;
+}
+/* styles for areas*/
+#contain {
+  position: relative;
+text-align : center;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+#headerscrabble {
+  background-color : #b3937e;
+  background-image:url(../images/mur.jpg);
+  padding:2px 0 2px 0;
+  text-align: center;
+}
+
+
+
+#message {
+text-align:center;
+color:#00007a;
+font-weight:bold ;
+/*border-style: solid;*/
+margin : 10px 10px 10px;
+}
+
+#content{
+/*background:#FEBF01;*/
+float: left;
+text-align:left;
+margin : 30px;
+}
+
+#home {
+	text-align: left;
+}
+
+/* styles for navigation*/
+
+nav {
+	width : 100%;
+	margin : 0 ;
+	background : #00007a;
+}
+
+nav a {
+	display : block;
+	decoration : none;
+	color : white;
+	font-weight : bold;
+	font-size : 1em;
+	border-bottom : 2px solid transparent;
+}
+
+nav a:hover {
+	color : #b3937e;
+	font-weight : bold;
+	font-size : 1em;
+	border-bottom : 2px solid #b3937e;
+}
+nav ul {
+	list-style-type : none;
+}
+
+nav ul li {
+	float : left;
+	width : 14%;
+	text-align: center;
+	border: 1px solid #b3937e;
+}
+
+nav ul::after {
+	content : "";
+	display : table;
+	clear : both;
+}
+
+/* general classes */
+.button1 {
+	border-radius:12px 0 12px 0;
+	background: #00007a;
+	border:none;
+	color:#b3937e;
+	font-size:12px ;
+	font-weight : bold ;
+	padding:6px 6px 6px 6px;
+	margin: 2px 2px 2px 2px;
+}
+
+#namesite {
+    display:block;
+    float:left;
+}
+/* styles for name's players*/
+
+
+#ajoutSupprimerArticle {
+	margin-left : 10px;
+	padding-top : 20px;
+	float :left;
+}
+
+#sendNamePlayers {
+	padding-top : 20px;
+	margin-left : 30px;
+	float :left;
+}
+/* styles for game*/
+
+#rack{
+float: left;
+margin-right : 50px;
+margin-left : 20px;
+margin-top : 0;
+text-align : center;
+font-family: sans-serif;
+}
+
+#board {
+/*background:#FEBF01;*/
+float: left;
+text-align:center;
+padding 20px 20px 20px 20px;
+max-width : 100%;
+max-height : 100%;
+}
+
+/* styles for the rack */
+.racktiles {
+	text-align :center;
+	width :100%;
+}
+
+
+.tiles {
+	text-align :center;
+	display : inline-block;
+}
+
+.letterrack {
+background-color : #b3937e ;
+font-weight: bold;
+font-size: 18px;
+width:30px;
+height:30px;
+text-align:center;
+padding:0px
+}
+
+.draggable-element {
+	/*display: inline-block;*/
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: #b3937e;
+	text-align: center;
+	margin: 2px;
+	font-size: 18px;
+	cursor: move;
+}
+
+.nodraggable-element {
+	/*display: inline-block;*/
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: #b3937e;
+	text-align: center;
+	margin: 2px;
+	font-size: 18px;
+}
+
+.miss {
+	/*display: inline-block;*/
+	float: left;
+	margin: 2px;
+}
+
+.miss-element {
+	background: #b3937e;
+	text-align: center;
+	font-size: 18px;
+	width: 30px;
+	height: 10px;
+}
+
+.miss-element-change {
+	background: #000000;
+	text-align: center;
+	font-size: 18px;
+	width: 30px;
+	height: 10px;
+}
+
+
+.valueletterrack {
+	vertical-align : 100%;
+	font-size: 60%
+}
+
+.rackPlayer {
+/*background:#FEBF01;*/
+text-align:center;
+border-width : 1px;
+border-style : solid;
+border-color : #00007a;
+margin : 20px 20px 20px 20px;
+padding : 5px 5px 5px 5px;
+min-width: 565px;
+}
+
+.rackCurrentPlayer {
+/*background:#FEBF01;*/
+text-align:center;
+border-width : 3px;
+border-style : solid;
+border-color : #00007a;
+margin : 20px 20px 20px 20px;
+/*min-width: 565px;*/
+}
+
+.rackNamePlayer {
+float: left;
+font-weight:bold;
+font-size: 14px;
+text-align : center;
+margin-left : 10px;
+}
+
+.rackScorePlayer {
+float: right;
+font-weight:bold;
+font-size: 14px;
+text-align : center;
+margin-right : 10px;
+}
+
+#inputWord {
+margin : 10px;
+font-weight:bold;
+text-align : center;
+}
+#word {
+font-weight: bold;
+font-size: 18px;
+height: 20px;
+font-family: sans-serif;
+}
+
+#infobeforevalidation {
+margin : 1px 1px 3px 1px;
+max-width : 500px;
+display : inline-block;
+text-align : center;
+font-weight:bold;
+font-style : italic;
+
+}
+
+/* styles for squares of board */
+
+.squareBorder {
+background-color : black;
+font-size: 66;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareLetter {
+background-color : #b3937e;
+/*font-size: 120;*/
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+
+.squareSingleLetter {
+background-color : #c3c3c3;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareTwiceLetter {
+background-color : #c8ddde;
+color : #57a6ba;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareTripleLetter {
+background-color : #3a9cb7;
+color : lightblue;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareTwiceWord {
+background-color : #f7b9a4;
+color : #ea4295;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareTripleWord {
+background-color : #fe6a50;
+color : #fe6a50;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.squareStar {
+background-color : #f7b9a4;
+font-weight:bold;
+width:25px;
+height:25px;
+text-align:center;
+padding:0px;
+}
+
+.activsquare {
+	border: 1px solid black;
+}
+
+.valueletterboard {
+	vertical-align : 100%;
+	font-size: 80%
+}
+
+.blankboard {
+	color : #151515;
+}
+
+.a_droite {
+float:right;
+}
+
+.a_gauche {
+float:left;
+display:block;
+padding-right:25px;
+vertical-align:top;
+}
+
+a.lieninv { text-decoration:none;
+color:#00007a;
+font-weight:bold }
+
+a.lieninv:link    {
+color:#00007a;
+}
+a.lieninv:active    {  color:#00007a}
+a.lieninv:visited {  color:#00007a}
+a.lieninv:hover   {  color:#000000}
+
+a.lien_ext:link    {  color:#00007a}
+a.lien_ext:hover   {  color:#000000}
+
+/* styles for help squares twice, triple */
+
+.helpsquare {
+	list-style-type : none;
+}
+
+.helpsquare li {
+	float : left;
+	text-align: center;
+}
+.squaremodel {
+	width : 25px;
+    margin-left: 10px;
+}
+
+/* styles for popup */
+.popup-div {
+   background: #ffffff;
+   float : left;
+   margin-left : 2px;
+}
+.popup-overlay {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  opacity: 0.95;
+  border: 2px solid #00007a;
+  /*width: 50%;*/
+  text-align : left;
+}
+
+.popup-overlay.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+}
+
+/*various styles */
+
+.raz {
+clear:both;
+}
+
+.txtgrand {
+font-size:14px;
+}
+
+.txtgrand_rouge {
+font-size:14px;
+font-weight:bold;
+color: #00007a;
+}
+
+.txtgrasrouge {
+font-weight:bold;
+color:#00007a;
+}
+
+.txtredbold {
+color:#00007a;
+font-weight :bold;
+}
+
+#infobeforevalidation {
+color: red;
+}
+
+.resized30 {
+width:30%;
+}
+
+.resized60 {
+width:60%;
+}
+
+.resized70 {
+width:70%;
+}
+@media only screen and (max-width: 959px) {
+    #largescreen {
+        visibility: hidden;
+    }
+}

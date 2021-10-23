@@ -1,0 +1,440 @@
+<tmx version="1.4">
+<header adminlang="oci" creationdate="2020-02-27" creationtool="Atom" creationtoolversion="1.43.0" datatype="PlainText" o-tmf="unknown" segtype="sentence" srclang="oci"/>
+<body>
+    <tu tuid="Title_Site">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Escrabble</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>HEPTAGRAMMATA, le plus ancien nouveau jeu de 2021 !</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Hello">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Bienvenue à toutes et tous pour cette partie entièrement gratuite d'Heptagrammata, un jeu de grec ancien encore en phase de bêta-test. Attention : les lettres attribuées par le site à chaque joueur vont apparaître à l'écran, aux yeux de tous si vous n'y prenez pas garde. Aussi vous conseillons-nous, si vous êtes 3, 4 ou 5, de jouer à 2, 3 ou 4 et de désigner parmi vous un responsable de la connexion internet, qui communiquera confidentiellement à chacun son tirage, et d'utiliser tous la boîte de jeu conviviale disponible à l'adresse heptagrammata.free.fr 
+			</seg>
+        </tuv>
+    </tu>
+
+// ENDROIT DELICAT !! //
+	
+<tu tuid="HelloDuplicate1">
+<tuv xml:lang="oc-gascon" ><seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg></tuv>
+<tuv xml:lang="ancient-greek" ><seg>Si vous êtes éloigné de vos amis ou si vous voulez participer à un tournoi virtuel, vous pouvez jouer en duplicate. Grâce au code que vous leur enverrez, vos adversaires tireront les lettres dans le même ordre que vous.</seg></tuv></tu>
+	
+<tu tuid="HelloDuplicate2">
+<tuv xml:lang="oc-gascon" ><seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg></tuv>
+<tuv xml:lang="ancient-greek" ><seg>Attention : si vous voulez pratiquer le duplicate comme en tournoi, où seul le top est posé à chaque coup, il convient de communiquer entre vous (par téléphone, par courriel...) le coup proposé par chaque joueur au bout de quelques minutes : chacun gagne ses propres points mais seul le meilleur coup est finalement posé. Il s'agira là du meilleur coup relatif, puisqu'il n'existe pas en grec ancien (est-ce un mal ?) de solveur permettant de donner à chaque tirage le meilleur coup dans l'absolu.</seg></tuv></tu>
+		
+<tu tuid="HelloDuplicate3">
+<tuv xml:lang="oc-gascon" ><seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg></tuv>
+<tuv xml:lang="ancient-greek" ><seg>Cliquez d'abord sur l'onglet du code duplicate, puis transmettez ce code à vos amis par le moyen de votre choix (lesquels n'auront plus qu'à se connecter à la présente page). Nous vous conseillons de commencer à jouer à raison de 5 minutes par coup. Quelle que soit la durée choisie c'est pour aider au chronométrage que nous donnons l'heure d'Athènes en tête de nos pages.</seg></tuv></tu>
+
+<tu tuid="HelloDuplicate4">
+<tuv xml:lang="oc-gascon" ><seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg></tuv>
+<tuv xml:lang="ancient-greek" ><seg></seg></tuv></tu>
+	
+// FIN DE L ENDROIT DELICAT !! //
+				
+    <tu tuid="Title_SelectDialect">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Causida del dialècte pel jòc</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Causida del dialècte pel jòc</seg>
+        </tuv>
+    </tu>
+    <tu tuid="L1">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Lengadocian</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Lengadocian</seg>
+        </tuv>
+    </tu>
+    <tu tuid="L2">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Gascon</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Gascon</seg>
+        </tuv>
+    </tu>
+    <tu tuid="L3">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Langue3</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Langue3</seg>
+        </tuv>
+    </tu>
+    <tu tuid="L4">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Langue 4</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Langue 4</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Title_InputPlayers">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Noms dels jogaires (1 a 4 jogaires)</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Noms des heptagrammatistes ou de l'heptagrammatiste (1 à 4 joueurs)</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_InputPlayers">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Se vos plai, volgatz sasir los noms dels jogaires (attention, cal pas sasir dos còps lo meteis nom) :</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Veuillez saisir les noms des joueurs puis, quand la liste est complète, cliquez sur SUITE.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_Linecolumn">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Cliquez sur la case de la première lettre du mot.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Cliquez simplement sur la case de la première lettre du mot.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_Position">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Indiquez la position de la première lettre du mot (podètz tanben clicar sus la casa).</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Indiquez la position de la première lettre du mot (vous pouvez cliquer sur la case).</seg>
+        </tuv>
+    </tu>
+   <tu tuid="Txt_Keyboard">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Indiquez la position de la première lettre du mot (podètz tanben clicar sus la casa).</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Tapez toutes les lettres du mot sur le clavier virtuel.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_Right">
+        <tuv xml:lang="oc-gascon" >
+            <seg>orizontalament</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>horizontalement</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_Top">
+        <tuv xml:lang="oc-gascon" >
+            <seg>verticalament</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>verticalement</seg>
+        </tuv>
+    </tu>
+    <!-- Buttons -->
+    <tu tuid="Button_Add">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Apondre</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Ajouter un joueur</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Delete">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Supprimer</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Supprimer</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Send">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Mandar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>SUITE</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Send_Duplicate">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Mandar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Jouez !</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Miss">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Passar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Passer</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_MissAlone">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Passar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Quitter</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Validation">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Botar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Placer</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Congres">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Lo Congrès</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Lo Congrès</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Confirmation">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Confirmar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Confirmer</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Annulation">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Anullar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Annuler</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Button_Replay">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Tornar jogar</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Rejouer</seg>
+        </tuv>
+    </tu>
+        <!-- Labels -->
+    <tu tuid="Label_Word">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Mot</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Mot</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_Direction">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Direccion</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Direction</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_Horizontal">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Horizontal</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Horizontal</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_Vertical">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Vertical</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Vertical</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_Column">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Colomna</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Colonne</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_Line">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Linha</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Ligne</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_DuplicateEnterCode">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Copiez le code obtenu ou bien celui qu'on vous a communiqué :</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Label_DuplicateEnterPlayer">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Benvengut dins aquela partida d'Escrabble, aqueste jòc es en fasa de tèst.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Indiquez votre nom de joueur :</seg>
+        </tuv>
+    </tu>
+    <!-- Errors -->
+    <tu tuid="Error_NamePlayerIncorrect">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Format incorrècte</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Format incorrect</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_NamePlayerDuplication">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Un autre jogaire a lo meteis nom</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Un autre joueur a le même nom !</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_Character">
+        <tuv xml:lang="oc-gascon" >
+            <seg>caractèrs pas acceptats dins lo mot </seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Caractères non acceptés dans le mot.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_NumColLine">
+        <tuv xml:lang="oc-gascon" >
+            <seg>numèro de linha o de colomna incorrècte o direccion incorrècta</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Numéro de ligne ou de colonne incorrect, ou bien direction incorrecte.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_Star">
+        <tuv xml:lang="oc-gascon" >
+            <seg>A la debuta, cal commençar sus l'estela</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Pour commencer la partie, il faut poser une lettre sur l'étoile.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_Crossing">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Cal crosar amb autre mot o ne perlongar un (verificatz la direccion).</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Il faut croiser avec un autre mot ou bien en prolonger un (vérifiez aussi la direction).</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_BeforeAfter">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Se trapan de letras abans o après lo vòstre mot.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Il y a des lettres avant ou bien après votre mot (vérifiez aussi la direction).</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_MismatchLettersBoard">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Lo vòstre mot correspond pas en çò qu'es sul platèu.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Votre mot ne correspond pas avec ce qui est sur le plateau.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_Length">
+        <tuv xml:lang="oc-gascon" >
+            <seg> Un mot doit contenir au moins 2 lettres</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Un mot doit contenir au moins 2 lettres !</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_LettersMissing">
+        <tuv xml:lang="oc-gascon" >
+            <seg> absenta(s) de la vostra regleta o la direccion es pas bona.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg> n'est pas dans votre ratelier, ou bien la direction est incorrecte.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Error_NamePlayerEmpty">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Manca lo nom d'un jogaire.</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Il manque le nom du joueur.</seg>
+        </tuv>
+    </tu>
+
+    <!-- Messages -->
+    <tu tuid="Message_MissConfirm">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Sètz segur de passar ?</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Êtes-vous bien sûr de vouloir passer ?</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Message_Confirm">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Sètz segur que </seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Êtes-vous bien sûr que </seg>
+        </tuv>
+    </tu>
+    <tu tuid="Message_WordColumn">
+        <tuv xml:lang="oc-gascon" >
+            <seg> es lo mot que volètz botar sus la colomna </seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg> est le mot que vous voulez placer dans la colonne </seg>
+        </tuv>
+    </tu>
+    <tu tuid="Message_WordLine">
+        <tuv xml:lang="oc-gascon" >
+            <seg> e sus la linha </seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg> et sur la ligne </seg>
+        </tuv>
+    </tu>
+    <tu tuid="Message_CongresKO">
+        <tuv xml:lang="oc-gascon" >
+            <seg>mot pas trobat</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Mot introuvable.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Message_CongresOK">
+        <tuv xml:lang="oc-gascon" >
+            <seg>mot trobat</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Mot trouvé.</seg>
+        </tuv>
+    </tu>
+    <tu tuid="Txt_bagduplicate">
+        <tuv xml:lang="oc-gascon" >
+            <seg>Indiquez la position de la première lettre du mot (podètz tanben clicar sus la casa).</seg>
+        </tuv>
+        <tuv xml:lang="ancient-greek" >
+            <seg>Cliquez sur SUITE pour obtenir le code à transmettre à votre partenaire.</seg>
+        </tuv>
+    </tu>
+</body>
+</tmx>
